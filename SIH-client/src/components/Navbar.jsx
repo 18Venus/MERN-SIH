@@ -42,7 +42,7 @@ const Navbar = () => {
         { Link: "About", path: "/about" },
         { Link: "Tests", path: "/tests" },
         { Link: "Profile", path: "/admin/dashboard" },
-        { Link: "Blog", path: "/blog" }
+        { Link: "Health Care", path: "/map" }
     ]
 
     return (

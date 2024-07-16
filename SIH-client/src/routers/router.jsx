@@ -15,6 +15,7 @@ import Login from "../components/login";
 import Logout from "../components/Logout";
 import Tests from "../tests/test";
 import Home from "../home/Home";
+import MapComponent from "../components/MapComponent";
 
   
   const router = createBrowserRouter([
@@ -32,6 +33,11 @@ import Home from "../home/Home";
     {
       path:"/tests",
       element:<PrivateRoute><Tests/></PrivateRoute>
+     
+    },
+    {
+      path:"/map",
+      element:<PrivateRoute><MapComponent/></PrivateRoute>
      
     },
 
