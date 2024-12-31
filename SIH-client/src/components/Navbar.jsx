@@ -41,6 +41,7 @@ const Navbar = () => {
         { Link: "Home", path: "/" },
         { Link: "About", path: "/about" },
         { Link: "Tests", path: "/tests" },
+        { Link: "Calendar", path: "/calendar" },
         { Link: "Profile", path: "/admin/dashboard" },
         { Link: "Health Care", path: "/map" }
     ]
